@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+/* colors: #36213E, #554971, #63768D, #8AC6D0, #B8F3FF*/
 body {
     padding-top: 70px;
 	color: #222;
@@ -79,11 +80,11 @@ a:hover,a:focus {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     background-color: #fff;
-    color: #222;
+    color: #555;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #222;
+    color: #63768D;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -532,3 +533,8 @@ footer p {
 }
 
 
+/*instagram shtuff*/
+#instagram-media
+{
+    position: center;
+}

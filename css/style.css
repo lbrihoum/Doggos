@@ -15,10 +15,17 @@ html {
 	overflow-x:hidden;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:200;
 	color: #222;
+}
+
+h6
+{
+    font-family: 'Open Sans', sans-serif;
+	font-weight:150;
+    color: #222;
 }
 
 p{
@@ -334,15 +341,6 @@ a:hover,a:focus {
 	background-position:center;
 }
 
-/* Thumbnail Images*/
-
-.photo-1 {background-image: url('../img/1.jpg');}
-.photo-2 {background-image: url('../img/2.jpg');}
-.photo-3 {background-image: url('../img/3.jpg');}
-.photo-4 {background-image: url('../img/4.jpg');}
-.photo-5 {background-image: url('../img/5.jpg');}
-.photo-6 {background-image: url('../img/6.jpg');}
-
 /* Modal Box */
 
 .modal-dialog {
@@ -499,6 +497,7 @@ footer p {
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
 }
+
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
@@ -513,16 +512,19 @@ footer p {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
+
 .no-touch .cd-top:hover {
   background-color: transparent;
   opacity: 1;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-top {
     right: 20px;
     bottom: 20px;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .cd-top {
     height: 60px;

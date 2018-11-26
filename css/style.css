@@ -540,3 +540,38 @@ footer p {
 {
     position: center;
 }
+
+#spacer 
+{
+    height: 30px;
+}
+
+#bigger_spacer 
+{
+    height: 100px;
+}
+
+#bigboy_spacer
+{
+    height: 200px;
+}
+
+#biggboy_spacer
+{
+    height: 300px;
+}
+
+#biggerboy_spacer
+{
+    height: 400px;
+}
+
+#tiny_spacer
+{
+    height: 10px;
+}
+
+#tinyer_spacer
+{
+    height: 3px;
+}

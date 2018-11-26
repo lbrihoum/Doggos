@@ -159,7 +159,7 @@ input[type=submit]:hover {
         		SortBy: 'most-recent',
         		resolution: 'low_resolution',
         		limit: '9',
-        		template: '<div class="wrapper"> <a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" class=img-fluid"/></a></div>',
+        		template: '<a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" class=img-fluid"/></a>',
 
     		});
     		userFeed.run();
@@ -311,6 +311,7 @@ input[type=submit]:hover {
 
     <label for="country">Country</label>
     <select id="country" name="country">
+<option value="N/A">N/A</option>
 <option value="AF">Afghanistan</option>
 <option value="AL">Albania</option>
 <option value="DZ">Algeria</option>

@@ -13,8 +13,11 @@
 
     <!-- Css -->
     <link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet">
+	.center {
+    	margin: auto;
+    	text-align: center;
+}
 
 </head>
 
@@ -123,6 +126,30 @@
 			</div>
 		</div>
 	</section>
+		<section class="center">
+		<div align="center">
+			<p>Check out our collection of cute animals updated DAILY!</p>
+			<body>
+	<div class="container">
+	<div id="instafeed" class="row"></div>
+</div>
+			<script src="./js/instafeed.min.js"></script>
+			<script type="text/javascript">
+    			var userFeed = new Instafeed({
+        		get: 'user',
+        		userId: '9414808528',
+        		accessToken: '9414808528.1677ed0.7efbbb1c37344509ad2df256a563a588',
+        		SortBy: 'most-recent',
+        		resolution: 'low_resolution',
+        		limit: '9',
+        		template: '<div class="wrapper"> <a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" class=img-fluid"/></a></div>',
+
+    		});
+    		userFeed.run();
+</script>
+
+		</div>
+	</section>	
 	
 
 	<!-- Gallery -->
